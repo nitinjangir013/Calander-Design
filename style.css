@@ -1,0 +1,282 @@
+/*Bcolser data reset*/
+html,body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	background-size: cover;
+  user-select: none;
+}
+
+
+body
+{
+	font-family: arial;
+	background: linear-gradient(-120deg,rgba(254, 184, 184, 1.0),rgba(213, 129, 204, 1.0),rgba(123, 8, 249, 1.0));
+}
+
+.container
+{
+/* 	padding: 30px 10%; */
+}
+
+.calendar_container
+{
+	width: 1100px;
+	height: 580px;
+	overflow: hidden;
+	border-radius: 2px;
+  margin:0 auto;
+	background: rgba(243, 243, 255, 1.0);
+}
+
+
+.profile_content
+{
+	background: rgba(216, 217, 247, 1.0);
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	vertical-align: top;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.profile
+{
+
+}
+
+
+.profile img
+{
+	width: 80px;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+
+
+
+
+.menu_bar
+{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 80px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.menu_bar div
+{
+	width: 100%;
+	padding: 30px 0px;
+}
+
+.menu_bar .open_menu
+{
+	background: rgba(243, 243, 255, 1.0);
+	color: rgba(86, 114, 250, 1.0);
+}
+
+.menu_bar .open_menu img
+{
+	width: 15px;
+}
+
+
+
+.calendar
+{
+	display: inline-block;
+	width: 79%;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+
+.month_year
+{
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+	margin-top: 50px;
+	box-sizing: border-box;
+}
+
+
+
+.month_list
+{
+	width: 100%;
+	margin-top: 60px;
+	text-align: center;
+}
+.month_list h4
+{
+	color: rgba(0, 0, 0, 0.4);
+}
+.month_list h3
+{
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.month_list h2
+{
+	color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+.circle_calendar
+{
+	width: 79%;
+	box-sizing: border-box;
+	height: 800px;
+	border-radius: 50% 0 0 50%;
+	background: #fff;
+	overflow: hidden;
+	margin-top: -100px;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+
+.calendar_style
+{
+	margin-top: 120px;
+	margin-left: 80px;
+}
+
+
+.m_bar h3
+{
+	margin-left: 50px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.m_bar img
+{
+	width: 20px;
+	float: right;
+	margin-right: 20px;
+	display: inline-block;
+	filter: invert(50%);
+	vertical-align: top;
+}
+
+.dot
+{
+	transform: rotate(90deg);
+}
+
+
+.week_name
+{
+	width: 100%;
+	color: rgba(86, 114, 250, 1.0);
+	text-align: center;
+	margin-top: 20px;
+}
+
+.week_name span
+{
+	margin-left: 45px;
+}
+
+.col_1,.col_2,.col_3,.col_4,.col_5,.col_6,.col_7
+{
+	display: inline-block;
+	margin-left: 57px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.col_1 b,.col_2 b,.col_3 b,.col_4 b,.col_5 b,.col_6 b,.col_7 b
+{
+	position: absolute;
+	color: rgba(86, 114, 250, 1.0);
+	font-size: 30px;
+}
+
+.col_1 div,.col_2 div,.col_3 div,.col_7 div
+{
+	margin-top: 50px;
+}
+.col_4 div,.col_6 div,.col_5 div
+{
+	margin-top: 48px;
+}
+
+
+
+.pre_month,.next_month
+{
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.today
+{
+	background: rgba(255, 207, 71, 1.0);
+	color: #eee;
+	border-radius: 50%;
+	padding: 5px 10px;
+}
+
+.pin
+{
+	background: rgba(251, 142, 251, 1.0);
+	color: #eee;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.tag
+{
+	background: rgba(86, 114, 250, 1.0);
+	color: #eee;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+
+
+.buttom_btn
+{
+	width: 90%;
+	margin-top: 30px;
+}
+
+.text
+{
+	width: 30%;
+	float: left;
+	opacity: 0.5;
+	margin-left: 70px;
+	vertical-align: top;
+}
+
+.p_btn,.t_btn
+{
+	float: right;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+	border-radius: 50%;
+	padding: 5px;
+}
+.p_btn
+{
+	background: rgba(251, 142, 251, 0.5);
+	filter: invert(100%);
+}
+.t_btn
+{
+	background: rgba(94, 115, 240, 0.5);
+	filter: invert(100%);
+}
+
+.p_btn img,.t_btn img
+{
+	width: 30px;
+}
